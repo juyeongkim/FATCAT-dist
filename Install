@@ -9,7 +9,7 @@ if(test -d "/usr/include/c++/") then
 else	cp basic_73.h basic.h
 fi
 
-make
+make -no-pie
 
 echo
 echo "make is completed"
