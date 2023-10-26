@@ -115,5 +115,5 @@ int main(int argc, char *argv[])
 		printf("total time %.1f\n", diff);
 	}
 
-	return 1;
+	return 0;
 }
